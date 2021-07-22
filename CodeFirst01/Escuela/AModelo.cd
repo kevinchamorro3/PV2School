@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Modelo.Escuela.Calificacion">
+    <Position X="7.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAlAAACAAACAAAAAAABAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Escuela\Calificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modelo.Escuela.Carrera">
+    <Position X="10" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAgAAAAgAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Escuela\Carrera.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Curso">
+    <Position X="1.25" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAgAAAAAiAAAAgAAAFgQAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Escuela\Curso.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Estudiante">
+    <Position X="1.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Escuela\Estudiante.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Materia">
+    <Position X="1.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAQAAAAACACAAgAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Escuela\Materia.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Matricula">
+    <Position X="4.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAIAAgAAAAEgAAAAAEAABAAAAAAAQAAAAAAAACg=</HashCode>
+      <FileName>Escuela\Matricula.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Matricula_Det">
+    <Position X="4.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAEQABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Escuela\Matricula_Det.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Malla">
+    <Position X="10" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAIAAiAAAAAAAAAAQAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>Escuela\Malla.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Configuracion">
+    <Position X="7.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAgAACAAAAAAAAAAAKAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Escuela\Configuracion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Prerequisito">
+    <Position X="10" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Escuela\Prerequisito.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Modelo.Escuela.Periodo">
+    <Position X="4.5" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAAAAAAAgAAAAgAAAAAAAAAAAAAgAAg=</HashCode>
+      <FileName>Escuela\Periodo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

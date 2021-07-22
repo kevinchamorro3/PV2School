@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFirst01\Modelo.csproj" />
+    <ProjectReference Include="..\Escenarios\Escenarios.csproj" />
+    <ProjectReference Include="..\Info\Info.csproj" />
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj" />
+    <ProjectReference Include="..\Procesos\Procesos.csproj" />
+    <ProjectReference Include="..\Reportes\Reportes.csproj" />
+  </ItemGroup>
+
+</Project>

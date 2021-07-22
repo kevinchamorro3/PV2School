@@ -1,0 +1,39 @@
+﻿@model Modelo.Escuela.Estudiante
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h4>Record Académico del Estudiante @Model.Nombre</h4>
+
+    @foreach (var matricula in Model.Matriculas)
+    {
+        <p>
+            Matrícula Id: @matricula.MatriculaId
+            Período: @String.Format("{0:d} - {1:d}", matricula.Periodo.FechaInicio, matricula.Periodo.FechaFin)
+        </p>
+        <table>
+            <tr>
+                <th>Curso Id</th>
+                <th>Curso Nombre</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+            </tr>
+            @foreach (var det in matricula.Matricula_Dets)
+            {
+                <tr>
+                    <td>@det.Curso.CursoId </td>
+                    <td>@det.Curso.Nombre  </td>
+                    <td>@det.Calificacion.Nota1 </td>
+                    <td>@det.Calificacion.Nota2 </td>
+                    <td>@det.Calificacion.Nota3 </td>
+                </tr>
+            }
+        </table>
+    }
+    <div>
+        La siguiente información está tomada de los registros oficiales del Instituto y son
+        de interés exclusivo del estudiante.
+    </div>
+</div>
