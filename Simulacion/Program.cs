@@ -82,9 +82,10 @@ namespace Simulacion
             //----------------------------------------------------------------------------------------------
             //Reporte
             Publicar.RecordAcademico(Reporte.CalificacionesPorEstudiante(estNombre));
+            EstadoMatricula();
         }
         //Regla de negocio
-        public void EstadoMatricula()
+        public static void EstadoMatricula()
         {   //listamos las patriculas pendientes
             using (var db = new EscuelaContext())
             {
@@ -109,7 +110,7 @@ namespace Simulacion
                         //si la malla es vacia continuamos 
                         if (materia.Malla is null) continue;
                         //si la lista de prerequisitos e vacia entonces ok
-                        if (materia.Prerequisitos.Count==0) continue;
+                        if (materia.Malla.PreRequisitos.Count==0) continue;
                         //verificamos los prerequsitos
                         foreach (var pre in det.Curso.Materia.Malla.PreRequisitos)
                         {
@@ -123,7 +124,6 @@ namespace Simulacion
                     }
                     matricula.Estado = MatriculaAprobada ? "Aprobada" : "Rechazada";
                 }
-
             }
         }
         private static bool MateriaAprobada(Estudiante estudiante, Materia materia, Configuracion configuracion)
